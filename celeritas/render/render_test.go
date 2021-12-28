@@ -41,19 +41,6 @@ func TestRender_Page(t *testing.T) {
 			}
 		}
 	}
-	// changed to table test
-	//testRender.Renderer = "jet"
-	//err = testRender.Page(w, r, "home", nil, nil)
-	//if err != nil {
-	//	t.Error("Error jet rendering page", err)
-	//}
-	//
-	//testRender.Renderer = ""
-	//err = testRender.Page(w, r, "home", nil, nil)
-	//if err == nil {
-	//	t.Error("Error jet rendering page", err)
-	//}
-
 }
 
 func TestRender_GoPage(t *testing.T) {
