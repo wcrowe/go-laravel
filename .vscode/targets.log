@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Dec 28 00:34:17 2021
+# Make data base, printed on Sun Jan  9 19:44:41 2022
 
 # Variables
 
@@ -57,7 +59,7 @@ GOPROXY = https://proxy.golang.org,direct
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/wcrowe/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/wcrowe/.local/bin:/home/wcrowe/.cargo/bin:/home/wcrowe/.cache/activestate/bin:/home/wcrowe/.local/bin:/home/wcrowe/.nvm/versions/node/v16.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Foundation/jdk-8.0.302.8-hotspot/bin:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Perl64/bin:/mnt/c/Users/crowe/AppData/Roaming/ActiveState/bin:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/Anaconda3/Scripts:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/LINQPad7:/mnt/c/Program Files/Go/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/crowe/AppData/Local/activestate/bin:/mnt/c/Users/crowe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/crowe/.dotnet/tools:/mnt/c/Users/crowe/go/bin:/mnt/c/Users/crowe/.cargo/bin:/mnt/c/Users/crowe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/crowe/AppData/Local/atom/bin:/mnt/c/Users/crowe/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/crowe/AppData/Roaming/npm:/mnt/c/Users/crowe/AppData/Local/Programs/Fiddler:/mnt/c/Users/crowe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/crowe/.dotnet/tools:/mnt/c/Program Files (x86)/Rico Suter/NSwagStudio/:/mnt/c/Users/crowe/go/bin:/snap/bin:/home/wcrowe/.dotnet/tools:/home/wcrowe/.local/bin:/usr/local/go/bin
+PATH = /home/wcrowe/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/home/wcrowe/.local/bin:/home/wcrowe/.cargo/bin:/home/wcrowe/.cache/activestate/bin:/home/wcrowe/.local/bin:/home/wcrowe/.nvm/versions/node/v16.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Foundation/jdk-8.0.302.8-hotspot/bin:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Perl64/bin:/mnt/c/Users/crowe/AppData/Roaming/ActiveState/bin:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/Anaconda3/Scripts:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/LINQPad7:/mnt/c/Program Files/Go/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/crowe/AppData/Local/activestate/bin:/mnt/c/Users/crowe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/crowe/.dotnet/tools:/mnt/c/Users/crowe/go/bin:/mnt/c/Users/crowe/.cargo/bin:/mnt/c/Users/crowe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/crowe/AppData/Local/atom/bin:/mnt/c/Users/crowe/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/crowe/AppData/Roaming/npm:/mnt/c/Users/crowe/AppData/Local/Programs/Fiddler:/mnt/c/Users/crowe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/crowe/.dotnet/tools:/mnt/c/Users/crowe/go/bin:/mnt/c/Program Files (x86)/Rico Suter/NSwagStudio/:/snap/bin:/home/wcrowe/.dotnet/tools:/home/wcrowe/.local/bin:/usr/local/go/bin
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
@@ -67,7 +69,7 @@ NVM_BIN = /home/wcrowe/.nvm/versions/node/v16.13.1/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-0ccb2196-baf4-416b-82e3-ecd069232f0a.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-60329e91-eda3-4ad0-9ae6-765b41918ded.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -83,11 +85,11 @@ PWD = /home/wcrowe/go/src/go-laravel
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/8_interop
+WSL_INTEROP = /run/WSL/28524_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = d162fa18-63b4-4186-866a-eae31e4d5bb4
+WT_SESSION = 4bdbca43-fbf1-4c50-adfe-c7d7e7b26d2f
 # environment
 GOMODCACHE = /home/wcrowe/go/pkg/mod
 # environment
@@ -183,9 +185,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2080, inode 351226): 7 files, no impossibilities.
+# . (device 2080, inode 351226): 10 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -235,14 +237,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 127 B / avg = 8 B
-# current buf: size = 8162 B / used = 127 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 153 B / avg = 8 B
+# current buf: size = 8162 B / used = 153 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Tue Dec 28 00:34:17 2021
+# Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
+# Finished Make data base on Sun Jan  9 19:44:41 2022
 
- 
-make: *** No rule to make target 'all'.  Stop.
  
